@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Study Jam RecyclerView</string>
+    <string name="Descripcion_Bolivar">El Club Bolívar, es un equipo de fútbol que participa de la Primera División de Bolivia. La fecha de fundación del club es el 12 de abril de 1925. El color que identifica al club es el celeste, y sus colores secundarios son el azul y el blanco.</string>
+    <string name="Descripcion_Tigre">El Club The Strongest es una entidad polideportiva con sede en La Paz, Bolivia. Su principal actividad es el Fútbol pero también practica otras disciplinas. </string>
+    <string name="Descripcion_Wilster">El Club Deportivo Jorge Wilstermann, más conocido como Wilstermann, es un club de fútbol de la ciudad de Cochabamba, Bolivia, fundado el 24 de noviembre de 1949 por un grupo de trabajadores de la línea aérea Lloyd Aéreo Boliviano.</string>
+    <string name="Descripcion_Oriente">El Club Deportivo Oriente Petrolero, más conocido como Oriente Petrolero, o simplemente Oriente, es un club de fútbol de la ciudad de Santa Cruz de la Sierra, Bolivia.</string>
+    <string name="Descripcion_SanJose">El Club Deportivo San José de Oruro, es un club de fútbol boliviano, de la ciudad de Oruro. Fue fundado el 19 de marzo de 1942 y juega en la Liga de Fútbol Profesional Boliviano. </string>
+    <string name="Descripcion_Blooming">El Club Social, Cultural y Deportivo Blooming, más conocido simplemente como Blooming, es una institución deportiva de la ciudad de Santa Cruz de la Sierra, Bolivia, fundado el 1 de mayo de 1946.</string>
+    <string name="Descripcion_RealPotosi">El Club Real Potosí es un club de fútbol mas representativo de la ciudad de Potosí, en Bolivia. Real Potosí se ha convertido en uno de los representativos bolivianos populares de la última década.</string>
+    <string name="Descripcion_NacionalPotosi">El Club Atlético Nacional Potosí es un club de fútbol boliviano, de la ciudad de Potosí, fundado el 8 de abril en 1942. En 2007 fue subcampeón de la Asociación de Fútbol Potosí, clasificándose para disputar la Copa Simón Bolívar.</string>
+</resources>
