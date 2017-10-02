@@ -32,14 +32,15 @@ public class MainActivity extends AppCompatActivity implements EquipoAdapter.OnE
 
     private void llenarDatos() {
         List<Equipo> lista = new ArrayList<>();
-        lista.add(new Equipo(R.drawable.bolivar, "Bolivar", ""+R.string.Descripcion_Bolivar));
-        lista.add(new Equipo(R.drawable.tigre, "Tigre", ""+R.string.Descripcion_Tigre));
-        lista.add(new Equipo(R.drawable.wilster, "Wilster", ""+R.string.Descripcion_Wilster));
-        lista.add(new Equipo(R.drawable.oriente, "Oriente", ""+R.string.Descripcion_Oriente));
-        lista.add(new Equipo(R.drawable.sanjose, "San Jose", ""+R.string.Descripcion_SanJose));
-        lista.add(new Equipo(R.drawable.blooming, "Blooming", ""+R.string.Descripcion_Blooming));
-        lista.add(new Equipo(R.drawable.realpotosi, "Real Potosi", ""+R.string.Descripcion_RealPotosi));
-        lista.add(new Equipo(R.drawable.nacionalpotosi, "Nacional Potosi", ""+R.string.Descripcion_NacionalPotosi));
+        
+        lista.add(new Equipo(R.drawable.bolivar, "Boliviar", getString(R.string.Descripcion_Bolivar)));
+        lista.add(new Equipo(R.drawable.tigre,"Tigre", getString(R.string.Descripcion_Tigre)));
+        lista.add(new Equipo(R.drawable.wilster, "Wilster", getString(R.string.Descripcion_Wilster)));
+        lista.add(new Equipo(R.drawable.oriente, "Oriente", getString(R.string.Descripcion_Oriente)));
+        lista.add(new Equipo(R.drawable.sanjose, "San Jose", getString(R.string.Descripcion_SanJose)));
+        lista.add(new Equipo(R.drawable.blooming, "Blooming", getString(R.string.Descripcion_Blooming)));
+        lista.add(new Equipo(R.drawable.realpotosi, "Real Potosi", getString(R.string.Descripcion_RealPotosi)));
+        lista.add(new Equipo(R.drawable.nacionalpotosi, "Nacional Potosi", getString(R.string.Descripcion_NacionalPotosi)));
 
         equipoAdapter.setDataset(lista);
     }
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements EquipoAdapter.OnE
     @Override
     public void onEquipoSelected(Equipo equipo) {
         Intent intent = new Intent(getApplicationContext(), DetalleActivity.class);
-        intent.putExtra("equi", equipo);
+        intent.putExtra("equipo", equipo);
         startActivity(intent);
     }
 }
