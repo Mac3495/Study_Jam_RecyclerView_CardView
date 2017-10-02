@@ -7,45 +7,33 @@
     android:orientation="vertical"
     tools:context="com.example.marcelo.studyjamrecyclerview.DetalleActivity">
 
-    <ScrollView
+
+    <ImageView
+        android:id="@+id/imagen_detalle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:src="@mipmap/ic_launcher" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+    <TextView
+        android:id="@+id/texto_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Nombre"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imagen_detalle"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="2"
-                android:src="@mipmap/ic_launcher"
-                android:padding="8dp"/>
-
-            <TextView
-                android:id="@+id/texto_detalle"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:text="Nombre"
-                android:gravity="center"/>
-
-            <TextView
-                android:id="@+id/descripcion_detalle"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="2"
-                android:textSize="16sp"
-                android:textStyle="italic"
-                android:padding="16dp"
-                android:text="Descripción"/>
-
-        </LinearLayout>
-
-    </ScrollView>
+    <TextView
+        android:id="@+id/descripcion_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="16dp"
+        android:text="Descripción"
+        android:textSize="16sp"
+        android:textStyle="italic" />
 
 </LinearLayout>
